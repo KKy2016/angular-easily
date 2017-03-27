@@ -1,0 +1,12 @@
+body {
+  font-size: $size-font-normal;
+  color: #ffffff;
+}
+
+.layout-middle {
+  @include layout-main;
+  background-color: $color-primary;
+  min-height: 200px;
+  padding: 10px;
+  width: $size-page - 20px;
+}

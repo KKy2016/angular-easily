@@ -1,0 +1,10 @@
+<app-header></app-header>
+<div class="layout-middle page-blog-list">
+  <ul>
+    <li ng-repeat="item in dataList">
+      <a ng-href="{{'/blog/detail?id='+item.id}}">{{item.title}}</a>
+      <span>{{item.create_at | dateFilter : 'yyyy-MM-dd'}}</span>
+    </li>
+  </ul>
+</div>
+<app-footer></app-footer>

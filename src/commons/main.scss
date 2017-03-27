@@ -1,0 +1,8 @@
+@import '../components/variable';
+/*public*/
+@import './styles/reset';
+@import './styles/atom';
+@import "./styles/public";
+/*directives*/
+@import "./services/directives/app-header/style";
+@import "./services/directives/app-footer/style";

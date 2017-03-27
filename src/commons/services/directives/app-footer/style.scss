@@ -1,0 +1,10 @@
+#c-app-footer {
+  @include layout-main;
+  margin-top: 10px;
+  text-align: center;
+  color: #fff;
+  height: 100px;
+  line-height: 100px;
+  font-size: $size-font-big;
+  background: $color-primary;
+}

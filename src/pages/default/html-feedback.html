@@ -1,0 +1,18 @@
+<app-header></app-header>
+<div class="layout-middle p-feedback">
+  <form method="post" ng-submit="form.submitEvent($event)" action="">
+    <div>
+      <label for="Jp-feedback-contact">联系方式</label>
+      <input ng-model="form.data.contact" placeholder="请输入联系电话或邮箱" name="contact" id="Jp-feedback-contact" type="text">
+    </div>
+    <div>
+      <label for="Jp-feedback-content">反馈内容</label>
+      <textarea ng-model="form.data.content" placeholder="请输入内容" name="content" id="Jp-feedback-content" cols="30"
+                rows="10"></textarea>
+    </div>
+    <div>
+      <button>提交</button>
+    </div>
+  </form>
+</div>
+<app-footer></app-footer>

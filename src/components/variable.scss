@@ -1,0 +1,14 @@
+//size
+$size-page: 1000px;
+
+$size-font-normal: 14px;
+$size-font-big: 18px;
+$size-font-small: 12px;
+//color
+$color-primary: #00b0f0;
+//minix
+@mixin layout-main {
+  width: $size-page;
+  margin: 0 auto;
+  background: #ffffff;
+}

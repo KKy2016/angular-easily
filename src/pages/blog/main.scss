@@ -1,0 +1,29 @@
+@import "../../components/variable";
+
+.page-blog-list {
+  li {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px dashed #fff;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+    span {
+      float: right;
+    }
+  }
+}
+
+.page-blog-detail {
+  > h1 {
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-bottom: 1px dashed #fff;
+  }
+  > div {
+    padding: 10px 0;
+  }
+}
