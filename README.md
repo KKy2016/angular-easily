@@ -1,6 +1,6 @@
 # angular-easily
 * 该项目仅仅是为了演示angularjs，主旨简单易懂的学习使用angularjs。
-* 涉及到directive,controller,service,filter,$http拦截器等。
+* 涉及到directive,controller,service,filter,$http拦截器，异步加载控制器资源等。
 * 关于gulp编译见[gulp-easily](https://github.com/yujingwyh/gulp-easily)。
 
 ## 使用
