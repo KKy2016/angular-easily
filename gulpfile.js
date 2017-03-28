@@ -23,12 +23,12 @@ gulp.task("default", ['build']);
  * 编译该项目
  */
 gulp.task("build", gulpSequence('clean', ['_script', '_html', '_style','_image','_lib'], ['rev','api']));
-/**
- * 监视有文件改动会自动编译对应的文件
- */
 gulp.task('dev',['watch'],function () {
   gulp.start('webserver');
 });
+/**
+ * 监视有文件改动会自动编译对应的文件
+ */
 gulp.task('watch', function () {
     buildLib.watch(gulp, config, publicFns);
     buildHtml.watch(gulp, config, publicFns);
