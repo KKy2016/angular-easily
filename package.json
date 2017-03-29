@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yujingwyh/gulp-easily"
+    "url": "https://github.com/yujingwyh/angular-easily"
   },
   "scripts": {
     "dev": "cross-env ENV=development gulp build & gulp dev",
