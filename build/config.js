@@ -12,6 +12,7 @@ module.exports = {
     'output': rootOutput
   },
   'lib': {
+    'repair':{'dirname': "./libs/"},
     'input': [rootInput + 'libs/*'],
     'watch': [rootInput + 'libs/*']
   },
