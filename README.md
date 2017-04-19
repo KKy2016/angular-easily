@@ -3,6 +3,9 @@
 * 涉及到directive,controller,service,filter,$http拦截器，异步加载控制器资源等。
 * 关于gulp编译见[gulp-easily](https://github.com/yujingwyh/gulp-easily)。
 
+## 项目截图
+![eleme.gif](./res/screen.gif)
+
 ## 使用
 * 生产环境可将 nginx 等配置到dist目录并重写路由——非资源映射到index.html
 
