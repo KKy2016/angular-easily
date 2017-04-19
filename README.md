@@ -3,6 +3,9 @@
 * 涉及到directive,controller,service,filter,$http拦截器，异步加载控制器资源等。
 * 关于gulp编译见[gulp-easily](https://github.com/yujingwyh/gulp-easily)。
 
+> vue版本：[查看](https://github.com/yujingwyh/vue-easily) <br>
+> react版本：[查看](https://github.com/yujingwyh/react-easily)
+
 ## 项目截图
 ![eleme.gif](./res/screen.gif)
 
